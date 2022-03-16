@@ -38,9 +38,9 @@ const Allblogs = () => {
               <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
                   {postData && postData.map((post, index ) =>(
                     
-                  <article>
+                  <article key={index}>
                         
-                        <Link as={`/post/${post.slug.current}`} href="/post/[slug]">
+                        <Link as={`/post/${post.slug.current}`} href="/post/[slug]" >
                       <span className='block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-black cursor-pointer hover:opacity-70' key={index}>
                           <img src={post.mainImage.asset.url} alt=""
                           className='w-full h-full rounded-r object-cover absolute' 
