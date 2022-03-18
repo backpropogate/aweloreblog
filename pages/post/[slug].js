@@ -70,11 +70,11 @@ export const  getStaticPaths = async () => {
 
  </div>
  <h1 className=' text-2xl sm:text-3xl font-bold mb-5'>{post.title}</h1>
- <div className='flex  gap-4 mb-3'>
+ <div className='flex  gap-4 mb-3 items-center'>
      <img className=' w-16 h-16' src="/imageonly.png" alt="" />
      <div>
-         <h2 className='font-bold'>Lorem, ipsum.</h2>
-         <h2 className='text-gray-500 italic'>Lorem, ipsum dolor. </h2>
+         <h2 className='font-bold'>{post.author.name}</h2>
+         
      </div>
  </div>
  <div>
