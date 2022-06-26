@@ -7,7 +7,7 @@ const Nav = () => {
     <header>
     <Marquee/>
     <nav className=' w-full h-16 sm:h-24 flex justify-around sm:justify-around items-center py-9 shadow-md overflow-hidden'>
-      <Link href="/">< img className=' cursor-pointer hover:opacity-70 w-40 sm:w-48' src="/logo.png" alt="" /></Link>
+      <Link href="/">< img className=' cursor-pointer hover:opacity-70 w-20 sm:w-40' src="/logo2.png" alt="" /></Link>
       <ul className=' hidden sm:flex gap-5 font-bold '>
         <Link href='/allblogs' ><li className="cursor-pointer hover:opacity-50">Eccomerce</li></Link>
         

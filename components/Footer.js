@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         </div>
         <div className='flex justify-center mt-5'>
-            <a href="" className='text-white'><img className='w-44' src="/whitelogo.png" alt="" /> </a>
+            <a href="" className='text-white'><img className='w-36' src="/whitelogo.png" alt="" /> </a>
         </div>
         </footer>
   )
